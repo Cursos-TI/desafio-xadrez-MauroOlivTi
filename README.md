@@ -1,21 +1,15 @@
-# Como usar o programa Xadrez Aventureiro
+# Simulador de Movimentos de Peças de Xadrez
 
-Este programa simula o movimento de quatro peças de xadrez: **Torre, Rainha, Bispo e Cavalo**.
+Este programa simula os movimentos das peças Torre, Rainha, Bispo e Cavalo no xadrez, mostrando cada passo no console.
 
-## Como funciona
+## Como usar
 
-1. **Execute o programa**.
-2. Para cada peça, o programa vai pedir quantos movimentos você quer simular.
-3. Digite o número desejado e pressione Enter.
-4. O programa mostrará, para cada peça:
-   - O número do movimento
-   - A direção do movimento (Direita, Esquerda, Cima Direita ou o movimento em L do Cavalo)
+1. Execute o programa.
+2. Digite o número de movimentos desejado para cada peça quando solicitado.
+3. Veja no console cada movimento realizado por:
+   - **Torre:** Movimenta para a direita.
+   - **Rainha:** Movimenta para a esquerda.
+   - **Bispo:** Movimenta na diagonal (cima, direita).
+   - **Cavalo:** Movimenta em "L" (duas casas para cima e uma para a direita), mostrando as coordenadas após cada passo.
 
-## O que cada peça faz
-
-- **Torre:** Anda para a direita.
-- **Rainha:** Anda para a esquerda.
-- **Bispo:** Anda na diagonal para cima e à direita.
-- **Cavalo:** Anda em "L" (duas casas para baixo e uma para a esquerda).
-
-**Pronto!** Basta seguir as instruções na tela e ver o resultado dos movimentos.
+Cada movimento é impresso na tela, mostrando a direção e, no caso do cavalo, as coordenadas atuais.
